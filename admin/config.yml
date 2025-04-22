@@ -2,7 +2,7 @@ backend:
   name: github
   repo: j0l33n/my-blog
   branch: main
-  use_graphql: true
+  site_domain: joleenterbasket.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
