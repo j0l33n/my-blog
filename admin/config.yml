@@ -2,12 +2,12 @@ backend:
   name: git-gateway
   branch: main # or master if you're using the master branch
 
-media_folder: "static/images" # Folder where media like images will be stored
-public_folder: "/images" # Folder where the images will be publicly accessible
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "blog" # Collection name
-    label: "Blog Posts"
+    label: "Blog"
     folder: "blog" # Folder where the blog posts are stored
     create: true # Allow creation of new posts via the CMS
     slug: "{{slug}}" # Slug format
