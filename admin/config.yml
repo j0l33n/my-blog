@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main # or master if you're using the master branch
+  name: github
+  repo: j0l33n/my-blog
+  branch: main
+  site_domain: joleenterbasket.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
