@@ -7,7 +7,7 @@ const posts = [
 const container = document.getElementById('post-container');
 
 posts.forEach(post => {
-  fetch(`blog/${post.file}`)
+  fetch(post.file)
     .then(response => response.text())
     .then(markdown => {
       const html = marked.parse(markdown);
