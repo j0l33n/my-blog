@@ -1,5 +1,5 @@
 const posts = [
-  { file: '/blog/first-post.md', title: 'Tech Noob' },
+  { file: '/blog/first-post.txt', title: 'Tech Noob' },
   // { file: 'second-post.md', title: 'My Coding Journey' },
   // { file: 'third-post.md', title: 'Why I Love JavaScript' }
 ];
