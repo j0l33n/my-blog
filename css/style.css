@@ -1,17 +1,21 @@
 /* Basic reset and layout */
 body {
-  font-family: Arial, sans-serif;
+  .lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
-  color: #333;
+  background-color: #D3EFE9;
+  color: #171717;
 }
 
 /* Header */
 header {
-  background-color: #4b2e83;
-  color: #fff;
+  background-color: #47B298;
+  color: #171717;
   padding: 1rem;
   text-align: center;
 }
@@ -44,10 +48,10 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #eee;
+  background-color: #19715C;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #555;
+  color: #171717;
 }
