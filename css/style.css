@@ -1,15 +1,16 @@
 /* Basic reset and layout */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #D3EFE9;
-  color: #171717;
+  margin: 10px;
+  padding: 20px;
+  background-color: #096191;
+  color: #F8D2DD;
 }
 /* Header */
 header {
-  background-color: #19715C;
-  color: #171717;
-  padding: 1rem;
+  background-color: #ABEEDC;
+  color: #096191;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
 }
   /* Navigation */
@@ -17,12 +18,12 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   justify-content: center;
 }
 nav a {
   text-decoration: none;
-  color: #4b2e83;
+  color: #096191;
   font-weight: bold;
 }
 nav a:hover {
@@ -39,17 +40,16 @@ p, ul, ol, li {
   line-height: 1.6;
 }
 main {
-  padding: 2rem;
+  padding: 20px;
   max-width: 800px;
   margin: auto;
 }
 
 /* Footer */
 footer {
-  background-color: #47B298;
+  background-color: #ABEEDC;
+  color: #096191;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #171717;
 }
